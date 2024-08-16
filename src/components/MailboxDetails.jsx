@@ -7,7 +7,7 @@ const MailboxDetails = (props) => {
     <div>
       <h2>Details</h2>
       {singleMailbox
-        ?<div>
+        ?<div className="mail-box">
           <p>Mailbox ID: {singleMailbox._id}</p>
           <p>Boxholder: {singleMailbox.boxholder}</p>
           <p>Box Size: {singleMailbox.boxSize}</p>
